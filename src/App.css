@@ -474,6 +474,62 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+/* ************ Cards Buttons CSS *************** */
+.proj-btn-git{
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 9px 17px;
+  font-size: 18px;
+  margin-left: 18px;
+	position: relative;
+	background-color: transparent;
+	transition: 0.3s ease-in-out;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.proj-btn-git:hover {
+  color: #fff;
+  border: 2px solid #F8F8FF;
+  background-color: #005212;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.proj-btn-git:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.proj-btn-live{
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 9px 17px;
+  font-size: 18px;
+  margin-left: 18px;
+	position: relative;
+	background-color: transparent;
+	transition: 0.3s ease-in-out;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.proj-btn-live:hover {
+  color: #fff;
+  border: 2px solid #F8F8FF;
+  background-color: #6495ED;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.proj-btn-live:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
 
 /************ Projects Css ************/
 .contact {
