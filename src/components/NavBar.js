@@ -6,9 +6,7 @@ import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import navIcon4 from '../assets/img/nav-icon4.png';
 import { HashLink } from 'react-router-hash-link';
-import {
-  BrowserRouter as Router
-} from "react-router-dom";
+import {BrowserRouter as Router} from "react-router-dom";
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -55,9 +53,9 @@ const onUpdateActiveLink = (value) => {
               <a href='https://www.instagram.com/yonirotman159/'><img src={navIcon3} alt="Injstagram Icon"/></a>
               <a href='https://github.com/LilManko'><img src={navIcon4} alt="Github Icon"/></a>
             </div>
-            <HashLink to='#connect'>
-              <button className='vvd' onClick={()=> console.log('connect')}><span>Let's Connect</span></button>
-            </HashLink>
+            <a href='https://drive.google.com/file/d/1B9WXJhSjpSdfSdrAaxXNpnzpyCxSAaFz/view?usp=sharing'>
+              <button className='vvd'><span>My Resume</span></button>
+            </a>
           </span>
         </Navbar.Collapse>
       </Container>

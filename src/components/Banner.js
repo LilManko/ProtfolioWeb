@@ -9,7 +9,7 @@ import headerImg from '../assets/img/header-img.svg'
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState (0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = [ "Web Developer" ];
+    const toRotate = [ "Fullstack Developer" ];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
@@ -50,7 +50,9 @@ const tick = () => {
                 <Col xs={12} md={6} xl={7}>
                     <span className='tagline'>Welcome to my Porfolio</span>
                         <h1>{'Hi I`m a '}<span className='wrap'>{text}</span></h1>
-                        <p><br/>this section is about myself<br/></p>
+                        <p><br/>I'm a resourceful team player with a "can do" attitude who enjoys team work and
+                                collaborating with others,<br/>
+                                Looking forward to develop the best user experience.</p>
                         <button onClick={()=> console.log('connect')}>Let`s connect<ArrowRightCircle size={25}/></button>
                 </Col>
                 <Col xs={12} md={6} xl={5}>

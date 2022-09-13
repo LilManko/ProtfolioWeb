@@ -47,10 +47,11 @@ export const Skills = () => {
                     <h2>
                         Skills
                     </h2>
-                    <p>skills decvription is here 
+                    <p>
+                        I practice Frontend, Backend, Databse and Server side Development
                         <br/>
                         <br/>
-                        skills decvription is here 
+                        using the following programming languages & technologies:
                     </p>
                     <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                         <div className='item'>
@@ -102,7 +103,7 @@ export const Skills = () => {
                 </Col>
             </Row>
         </Container>
-        <img className='background-image-left' src={colorSharp}/>
+        <img className='background-image-left' src={colorSharp} alt='skills colorsharp'/>
     </section>
   )
 }

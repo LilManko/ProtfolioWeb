@@ -2,11 +2,11 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import React from 'react'
 import { ProjectCards } from "./ProjectCards";
 import PrintsAndPots from "../assets/img/PrintsAndPots1.png";
+import FourInARow from "../assets/img/FourInARow.png";
+import profolio1 from "../assets/img/profolio1.png"
 import comingsoon1 from "../assets/img/comingsoon1.png";
 import comingsoon2 from "../assets/img/comingsoon2.png";
 import comingsoon3 from "../assets/img/comingsoon3.png";
-import comingsoon4 from "../assets/img/comingsoon4.png";
-import projImg2 from "../assets/img/project-img2.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -26,17 +26,17 @@ export  const Projects = () => {
     {
       title: "My Protfolio",
       description: "My Personal Profolio App",
-      imgUrl: projImg2,
+      imgUrl: profolio1,
       alt:"MyProtfolio",
       gitUrl: "https://github.com/LilManko/ProtfolioWeb",
       liveUrl: "#projects",
       
     },
     {
-      title: "Stay Tuned...",
-      description: "",
-      imgUrl: comingsoon1,
-      alt:"Prints n Pots",
+      title: "Four In A Row",
+      description: "The AI Plays Itself - In Development",
+      imgUrl: FourInARow,
+      alt:"FourInARow",
       gitUrl: "#projects",
       liveUrl: "#projects",
     },
@@ -58,10 +58,10 @@ export  const Projects = () => {
     {
       title: "Stay Tuned...",
       description: "",
-      imgUrl: comingsoon4,
+      imgUrl: comingsoon1,
       alt:"Prints n Pots",
-      gitUrl: "#",
-      liveUrl: "#",
+      gitUrl: "#projects",
+      liveUrl: "#projects",
     },
   ];
 
