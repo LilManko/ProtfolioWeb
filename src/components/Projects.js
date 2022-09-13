@@ -9,7 +9,6 @@ import comingsoon2 from "../assets/img/comingsoon2.png";
 import comingsoon3 from "../assets/img/comingsoon3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
-import TrackVisibility from 'react-on-screen';
 
 
 export  const Projects = () => {
