@@ -52,7 +52,7 @@ const onUpdateActiveLink = (value) => {
               <a href='https://www.instagram.com/yonirotman159/'><img src={navIcon3} alt="Injstagram Icon"/></a>
               <a href='https://github.com/LilManko'><img src={navIcon4} alt="Github Icon"/></a>
             </div>
-            <a href='https://drive.google.com/file/d/1B9WXJhSjpSdfSdrAaxXNpnzpyCxSAaFz/view?usp=sharing'>
+            <a href='https://drive.google.com/file/d/1Prju29rgtG_Q5O6iqNwn-RRqrtAwd6pC/view?usp=sharing'>
               <button className='vvd'><span>My Resume</span></button>
             </a>
           </span>
