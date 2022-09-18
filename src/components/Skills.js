@@ -48,7 +48,7 @@ export const Skills = () => {
                         Skills
                     </h2>
                     <p>
-                        I practice Frontend, Backend, Databse and Server side Development
+                        I practice Frontend, Backend, Database and Server side Development
                         <br/>
                         <br/>
                         using the following programming languages & technologies:

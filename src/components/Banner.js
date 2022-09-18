@@ -49,7 +49,7 @@ export const Banner = () => {
         <Container>
             <Row className='align-items-center'>
                 <Col xs={12} md={6} xl={7}>
-                    <span className='tagline'>Welcome to my Porfolio</span>
+                    <span className='tagline'>Welcome to my Porfotlio</span>
                         <h1>{'Hi I`m a '}<span className='wrap'>{text}</span></h1>
                         <p><br/>I'm a resourceful team player with a "can do" attitude who enjoys team work and
                                 collaborating with others,<br/>
