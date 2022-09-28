@@ -53,7 +53,7 @@ export const Banner = () => {
                         <h1>{'Hi I`m a '}<span className='wrap'>{text}</span></h1>
                         <p><br/>I'm a resourceful team player with a "can do" attitude who enjoys team work and
                                 collaborating with others,<br/>
-                                Looking forward to develop the best user experience.</p>
+                                Looking forward to develope the best user experience.</p>
                         <button onClick={()=> console.log('connect')}>Let`s connect<ArrowRightCircle size={25}/></button>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
