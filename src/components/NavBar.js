@@ -48,7 +48,7 @@ const onUpdateActiveLink = (value) => {
           <span className='navbar-text'>
             <div className='social-icon'>
               <a href='https://www.linkedin.com/in/yonatan-rotman-54067a169'><img src={navIcon1} alt="LinkedIn Icon"/></a>
-              <a href='https://www.facebook.com/yonirot'><img src={navIcon2} alt="Facebook Icon"/></a>
+              <a href='https://www.facebook.com/yonirotman159'><img src={navIcon2} alt="Facebook Icon"/></a>
               <a href='https://www.instagram.com/yonirotman159/'><img src={navIcon3} alt="Injstagram Icon"/></a>
               <a href='https://github.com/LilManko'><img src={navIcon4} alt="Github Icon"/></a>
             </div>
