@@ -15,11 +15,19 @@ export  const Projects = () => {
 
   const projects = [
     {
-      title: "Prints & Pots",
-      description: "E-Commerce Web App - In Development",
+      title: "Prints & Pots Fronted",
+      description: "E-Commerce Web App - not life at the moment",
       imgUrl: PrintsAndPots,
       alt: "PrintsnPots",
-      gitUrl: "#projects",
+      gitUrl: "https://github.com/LilManko/PrintsAndPotsFrontend",
+      liveUrl: "#projects",
+    },
+    {
+      title: "Prints & Pots Fronted Backend",
+      description: "E-Commerce Web App - not life at the moment",
+      imgUrl: PrintsAndPots,
+      alt: "PrintsnPots",
+      gitUrl: "https://github.com/LilManko/PrintsAndPotsBackend",
       liveUrl: "#projects",
     },
     {
@@ -29,21 +37,12 @@ export  const Projects = () => {
       alt:"MyProtfolio",
       gitUrl: "https://github.com/LilManko/ProtfolioWeb",
       liveUrl: "#projects",
-      
     },
     {
       title: "Four In A Row",
       description: "The AI Plays Itself - In Development",
       imgUrl: FourInARow,
       alt:"FourInARow",
-      gitUrl: "#projects",
-      liveUrl: "#projects",
-    },
-    {
-      title: "Stay Tuned...",
-      description: "",
-      imgUrl: comingsoon2,
-      alt:"Prints n Pots",
       gitUrl: "#projects",
       liveUrl: "#projects",
     },
