@@ -5,7 +5,6 @@ import PrintsAndPots from "../assets/img/PrintsAndPots1.png";
 import FourInARow from "../assets/img/FourInARow.png";
 import profolio1 from "../assets/img/profolio1.png"
 import comingsoon1 from "../assets/img/comingsoon1.png";
-import comingsoon2 from "../assets/img/comingsoon2.png";
 import comingsoon3 from "../assets/img/comingsoon3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
