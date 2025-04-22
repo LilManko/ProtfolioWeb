@@ -22,7 +22,7 @@ export  const Projects = () => {
       liveUrl: "#projects",
     },
     {
-      title: "Prints & Pots Fronted Backend",
+      title: "Prints & Pots Backend",
       description: "E-Commerce Web App - not life at the moment",
       imgUrl: PrintsAndPots,
       alt: "PrintsnPots",
